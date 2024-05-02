@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        input, select, button {
+            padding: 5px;
+            margin: 2px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            border-radius: 50px;
+        }
+        #result {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>MemoryJs</h1>
+    <input id="address" type="text" name="" id="">
+    <input id="value" type="text" name="" id="">
+    <select name="" id="data-type">
+        <option value="int">int</option>
+        <option value="float">float</option>
+        <option value="double">double</option>
+        <option value="string">string</option>
+    </select>
+    <button id="read">Read</button>
+    <button id="write">Write</button>
+    <div id="result"></div>
+    <script type="module" src="./renderer.js"></script>
+</body>
+</html>
